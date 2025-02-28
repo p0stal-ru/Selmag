@@ -1,4 +1,4 @@
-package ag.selm.manager.entity;
+package ag.selm.catalogue.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

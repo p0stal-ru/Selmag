@@ -1,4 +1,4 @@
-package ag.selm.manager;
+package ag.selm.catalogue;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

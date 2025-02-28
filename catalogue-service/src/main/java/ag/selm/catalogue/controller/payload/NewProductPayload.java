@@ -1,4 +1,4 @@
-package ag.selm.manager.controller.payload;
+package ag.selm.catalogue.controller.payload;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
