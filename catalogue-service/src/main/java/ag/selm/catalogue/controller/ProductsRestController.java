@@ -31,6 +31,6 @@ public class ProductsRestController {
             Product product = productService.createProduct(payload.title(), payload.details());
 
         }
-
+        return null;
     }
 }
