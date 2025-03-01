@@ -29,8 +29,8 @@ public class ProductsRestController {
             return null;
         } else {
             Product product = productService.createProduct(payload.title(), payload.details());
-
+            return product;
         }
-        return null;
+
     }
 }
