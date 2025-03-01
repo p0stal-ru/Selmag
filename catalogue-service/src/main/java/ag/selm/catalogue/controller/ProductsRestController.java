@@ -26,7 +26,7 @@ public class ProductsRestController {
     public Product createProduct(@Valid @RequestBody NewProductPayload payload,
                                  BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-
+            return null;
         } else {
             Product product = productService.createProduct(payload.title(), payload.details());
 
